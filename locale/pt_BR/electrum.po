@@ -34,8 +34,8 @@ msgid "&Addresses"
 msgstr "&Endereço"
 
 #: electrum/gui/qt/main_window.py:768
-msgid "&Bitcoin Paper"
-msgstr "Whitepaper do &Bitcoin"
+msgid "&Bitweb Paper"
+msgstr "Whitepaper do &Bitweb"
 
 #: electrum/gui/qt/main_window.py:763
 msgid "&Check for updates"
@@ -328,16 +328,16 @@ msgid "Add fallback addresses to BOLT11 lightning invoices."
 msgstr "Adicionar endereços de retorno às faturas lightning BOLT11."
 
 #: electrum/gui/qt/settings_dialog.py:114
-msgid "Add lightning invoice to bitcoin URIs"
-msgstr "Adicionar faturas lightning à URIs de bitcoin"
+msgid "Add lightning invoice to bitweb URIs"
+msgstr "Adicionar faturas lightning à URIs de bitweb"
 
 #: electrum/gui/qt/settings_dialog.py:107
 msgid "Add on-chain fallback to lightning invoices"
 msgstr "Adicione retorno em onchain para faturas lightning"
 
 #: electrum/gui/qt/settings_dialog.py:229
-msgid "Add thousand separators to bitcoin amounts"
-msgstr "Adicionar separadores de milhar às quantidades de bitcoin"
+msgid "Add thousand separators to bitweb amounts"
+msgstr "Adicionar separadores de milhar às quantidades de bitweb"
 
 #: electrum/gui/qt/transaction_dialog.py:238
 #: electrum/gui/qt/main_window.py:2692
@@ -536,9 +536,9 @@ msgstr "Árabe"
 #: electrum/plugins/keepkey/qt.py:412 electrum/plugins/safe_t/qt.py:322
 #: electrum/plugins/trezor/qt.py:588
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has bitwebs in it!"
 msgstr "Você tem CERTEZA que quer apagar o dispositivo?\n"
-"Sua carteira ainda possuí Bitcoins!"
+"Sua carteira ainda possuí Bitwebs!"
 
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:550
 #: electrum/gui/qt/channels_list.py:162
@@ -633,20 +633,20 @@ msgid "BIP70 invoice saved as {}"
 msgstr "Fatura BIP70 salva como {}"
 
 #: electrum/gui/qt/history_list.py:596
-msgid "BTC Fiat price"
-msgstr "Preço Fiat do BTC"
+msgid "BTE Fiat price"
+msgstr "Preço Fiat do BTE"
 
 #: electrum/gui/qt/history_list.py:592
-msgid "BTC balance"
-msgstr "Saldo BTC"
+msgid "BTE balance"
+msgstr "Saldo BTE"
 
 #: electrum/gui/qt/history_list.py:613
-msgid "BTC incoming"
-msgstr "BTC de entrada"
+msgid "BTE incoming"
+msgstr "BTE de entrada"
 
 #: electrum/gui/qt/history_list.py:617
-msgid "BTC outgoing"
-msgstr "BTC de saída"
+msgid "BTE outgoing"
+msgstr "BTE de saída"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
 #: electrum/gui/qt/installwizard.py:164
@@ -722,12 +722,12 @@ msgid "BitBox02 Status"
 msgstr "Status da BitBox02"
 
 #: electrum/gui/qt/send_tab.py:604
-msgid "Bitcoin Address is None"
-msgstr "Não há nenhum endereço de Bitcoin"
+msgid "Bitweb Address is None"
+msgstr "Não há nenhum endereço de Bitweb"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:148
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transações em bitcoin em geral não são gratuitas. Uma taxa de transação é paga por quem enviar os fundos."
+msgid "Bitweb transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transações em bitweb em geral não são gratuitas. Uma taxa de transação é paga por quem enviar os fundos."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1799,8 +1799,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Erro de comunicação do dispositivo. Por favor retire e reinsira o seu Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:866
-msgid "Device not in Bitcoin mode"
-msgstr "O dispositivo não está no modo Bitcoin"
+msgid "Device not in Bitweb mode"
+msgstr "O dispositivo não está no modo Bitweb"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1949,9 +1949,9 @@ msgstr "Plugins do Electrum"
 
 #: electrum/plugin.py:588
 msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+"Before you request bitwebs to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitwebs you receive will be unspendable."
 msgstr "A Electrum não pode emparelhar com o seu {}.\n\n"
-"Antes de solicitar bitcoins a serem enviados para endereços nesta carteira, certifique-se de que você possa emparelhar o seu dispositivo, ou que você tenha uma semente (e frase secreta, se houver). Caso contrário, todos os bitcoins recebidos ficarão inoperantes."
+"Antes de solicitar bitwebs a serem enviados para endereços nesta carteira, certifique-se de que você possa emparelhar o seu dispositivo, ou que você tenha uma semente (e frase secreta, se houver). Caso contrário, todos os bitwebs recebidos ficarão inoperantes."
 
 #: electrum/gui/kivy/uix/ui_screens/first_screen.kv:16
 #: electrum/gui/qt/installwizard.py:733
@@ -2008,7 +2008,7 @@ msgid "Electrum will now exit."
 msgstr "Electrum agora irá sair."
 
 #: electrum/gui/qt/main_window.py:786
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitweb."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1789
@@ -2151,8 +2151,8 @@ msgid "Enter a label to name your device:"
 msgstr "Insira um rótudo para nomear o seu dipositivo:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Insira uma lista de endereços de Bitcoin (isso criará uma carteira somente para consulta), ou uma lista de chaves privadas."
+msgid "Enter a list of Bitweb addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Insira uma lista de endereços de Bitweb (isso criará uma carteira somente para consulta), ou uma lista de chaves privadas."
 
 #: electrum/gui/qt/send_tab.py:769
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -2171,8 +2171,8 @@ msgstr "Digite sua nova senha abaixo."
 #: electrum/plugins/keepkey/clientbase.py:70
 #: electrum/plugins/safe_t/clientbase.py:75
 #: electrum/plugins/trezor/clientbase.py:297
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
-msgstr "Insira uma frase-chave para gerar essa carteira. Cada vez que você usar essa carteira, seu {} te pedirá pela frase-chave. Se esquecê-la, você não poderá acessar as bitcoins na carteira."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitwebs in the wallet."
+msgstr "Insira uma frase-chave para gerar essa carteira. Cada vez que você usar essa carteira, seu {} te pedirá pela frase-chave. Se esquecê-la, você não poderá acessar as bitwebs na carteira."
 
 #: electrum/gui/qt/main_window.py:2451
 msgid "Enter addresses"
@@ -2583,8 +2583,8 @@ msgid "Firmware Version"
 msgstr "Versão do firmware"
 
 #: electrum/plugins/ledger/ledger.py:56
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Versão do firmware (ou aplicativo \"Bitcoin\") muito antiga para suporte ao Segwit. Por favor atualize em"
+msgid "Firmware version (or \"Bitweb\" app) too old for Segwit support. Please update at"
+msgstr "Versão do firmware (ou aplicativo \"Bitweb\") muito antiga para suporte ao Segwit. Por favor atualize em"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2899,8 +2899,8 @@ msgstr "Se você marcar esta opção, suas transações não confirmadas serão 
 
 #: electrum/plugins/keepkey/qt.py:529 electrum/plugins/safe_t/qt.py:459
 #: electrum/plugins/trezor/qt.py:725
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "Se você desabilitar seu PIN, qualquer pessoa com acesso físico ao seu dispositivo {} pode gastar seus bitcoins."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitwebs."
+msgstr "Se você desabilitar seu PIN, qualquer pessoa com acesso físico ao seu dispositivo {} pode gastar seus bitwebs."
 
 #: electrum/base_wizard.py:502
 msgid "If you do not know what this is, leave this field empty."
@@ -2913,8 +2913,8 @@ msgstr "Se você forçar o fechamento deste canal, os fundos que você possui n�
 
 #: electrum/plugins/keepkey/qt.py:34 electrum/plugins/safe_t/qt.py:34
 #: electrum/plugins/trezor/qt.py:34
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr "Se você esquecer uma frase secreta, não poderá acessar nenhum bitcoin na carteira por trás dela. Uma frase secreta não é um PIN. Apenas mude isso se tiver certeza do que está fazendo."
+msgid "If you forget a passphrase you will be unable to access any bitwebs in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Se você esquecer uma frase secreta, não poderá acessar nenhum bitweb na carteira por trás dela. Uma frase secreta não é um PIN. Apenas mude isso se tiver certeza do que está fazendo."
 
 #: electrum/plugins/revealer/qt.py:725
 msgid "If you have an old printer, or want optimal precision"
@@ -2982,12 +2982,12 @@ msgid "Import"
 msgstr "Importar"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Importar Endereços Bitcoins"
+msgid "Import Bitweb Addresses"
+msgstr "Importar Endereços Bitwebs"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Importar endereços Bitcoin ou chaves privadas"
+msgid "Import Bitweb addresses or private keys"
+msgstr "Importar endereços Bitweb ou chaves privadas"
 
 #: electrum/gui/kivy/main_window.py:1463
 msgid "Import Channel Backup?"
@@ -3145,17 +3145,17 @@ msgstr "Quantidade Inválida"
 
 #: electrum/gui/kivy/uix/screens.py:358
 #: electrum/plugins/hw_wallet/plugin.py:129
-msgid "Invalid Bitcoin Address"
-msgstr "Endereço Bitcoin Inválido"
+msgid "Invalid Bitweb Address"
+msgstr "Endereço Bitweb Inválido"
 
 #: electrum/gui/text.py:621 electrum/gui/qml/qeinvoice.py:569
 #: electrum/gui/stdio.py:184
-msgid "Invalid Bitcoin address"
-msgstr "Endereço de bitcoin inválido"
+msgid "Invalid Bitweb address"
+msgstr "Endereço de bitweb inválido"
 
 #: electrum/gui/qt/main_window.py:1948 electrum/gui/qt/main_window.py:1976
-msgid "Invalid Bitcoin address."
-msgstr "Endereço de bitcoin inválido."
+msgid "Invalid Bitweb address."
+msgstr "Endereço de bitweb inválido."
 
 #: electrum/gui/stdio.py:194
 msgid "Invalid Fee"
@@ -3602,8 +3602,8 @@ msgid "Make sure you install it with python3"
 msgstr "Certifique-se de instalar com o python3"
 
 #: electrum/gui/qt/main_window.py:548
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Certifique-se de possuir a frase de sementes ou as chaves privadas, antes de solicitar que Bitcoins seja enviado para esta carteira."
+msgid "Make sure you own the seed phrase or the private keys, before you request Bitwebs to be sent to this wallet."
+msgstr "Certifique-se de possuir a frase de sementes ou as chaves privadas, antes de solicitar que Bitwebs seja enviado para esta carteira."
 
 #: electrum/plugins/coldcard/qt.py:136
 msgid "Master Fingerprint"
@@ -4096,8 +4096,8 @@ msgstr "Conecte-se apenas a um único servidor"
 
 #: electrum/plugins/keepkey/qt.py:554 electrum/plugins/safe_t/qt.py:484
 #: electrum/plugins/trezor/qt.py:750
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Limpe um dispositivo apenas se você tiver a semente de recuperação anotada e as carteira(s) do dispositivo estiverem vazias, caso contrário, os bitcoins serão perdidos para sempre."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitwebs will be lost forever."
+msgstr "Limpe um dispositivo apenas se você tiver a semente de recuperação anotada e as carteira(s) do dispositivo estiverem vazias, caso contrário, os bitwebs serão perdidos para sempre."
 
 #: electrum/gui/qt/new_channel_dialog.py:27
 #: electrum/gui/qt/channels_list.py:367
@@ -4214,8 +4214,8 @@ msgstr "PIN não atualizado"
 
 #: electrum/plugins/keepkey/qt.py:486 electrum/plugins/safe_t/qt.py:393
 #: electrum/plugins/trezor/qt.py:659
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr "A proteção por PIN é altamente recomendada. Um PIN é sua única proteção contra alguém que rouba seus bitcoins se eles obtiverem acesso físico ao seu {}."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitwebs if they obtain physical access to your {}."
+msgstr "A proteção por PIN é altamente recomendada. Um PIN é sua única proteção contra alguém que rouba seus bitwebs se eles obtiverem acesso físico ao seu {}."
 
 #: electrum/plugins/keepkey/qt.py:444 electrum/plugins/safe_t/qt.py:352
 #: electrum/plugins/trezor/qt.py:618
@@ -4527,8 +4527,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Por favor, salve estas {0} palavras em papel (a ordem é importante). "
 
 #: electrum/gui/kivy/uix/screens.py:331
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Por favor, escaneie um endereço Bitcoin ou um pedido de pagamento"
+msgid "Please scan a Bitweb address or a payment request"
+msgstr "Por favor, escaneie um endereço Bitweb ou um pedido de pagamento"
 
 #: electrum/gui/qt/main_window.py:602
 msgid "Please select a backup directory"
@@ -5372,8 +5372,8 @@ msgid "Share"
 msgstr "Parte"
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:230
-msgid "Share Bitcoin Request"
-msgstr "Compartilhar pedido de bitcoin"
+msgid "Share Bitweb Request"
+msgstr "Compartilhar pedido de bitweb"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
 msgid "Share Invoice"
@@ -5572,7 +5572,7 @@ msgid "Standard wallet"
 msgstr "Carteira padrão"
 
 #: electrum/gui/qt/main_window.py:789
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitweb system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:185
@@ -5703,8 +5703,8 @@ msgid "Testnet coins are worthless."
 msgstr "Moedas da testnet não tem valor."
 
 #: electrum/gui/qt/main_window.py:565
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Testnet é separada da rede principal do Bitcoin. É usada para teste."
+msgid "Testnet is separate from the main Bitweb network. It is used for testing."
+msgstr "Testnet é separada da rede principal do Bitweb. É usada para teste."
 
 #: electrum/gui/qt/main_window.py:1484
 msgid "Text"
@@ -5767,8 +5767,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "O valor será exibido em vermelho, se você não tiver fundos suficientes na sua carteira."
 
 #: electrum/gui/qt/receive_tab.py:80
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "O endereço bitcoin nunca expira e sempre será parte desta carteira electrum."
+msgid "The bitweb address never expires and will always be part of this electrum wallet."
+msgstr "O endereço bitweb nunca expira e sempre será parte desta carteira electrum."
 
 #: electrum/gui/qt/channels_list.py:442
 msgid "The channel peer can route Trampoline payments."
@@ -6041,8 +6041,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Isso pode resultar em maiores taxas de transações."
 
 #: electrum/gui/qt/main_window.py:547
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Isso significa que você não poderá gastar Bitcoins com ela."
+msgid "This means you will not be able to spend Bitwebs with it."
+msgstr "Isso significa que você não poderá gastar Bitwebs com ela."
 
 #: electrum/gui/qt/settings_dialog.py:346
 msgid "This might improve your privacy somewhat."
@@ -6295,10 +6295,10 @@ msgstr "Transação já salva ou ainda não assinada."
 #: electrum/network.py:1086
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mBTE and BTE."
 msgstr "Não foi possível transmitir a transação porque ela tinha saídas de dust.\n"
 "Algumas das saídas são de valor baixo demais, provavelmente abaixo de 1000 satoshis.\n"
-"Verifique as unidades, certifique-se de que não há uma confusão. Por ex.: entre mBTC e BTC."
+"Verifique as unidades, certifique-se de que não há uma confusão. Por ex.: entre mBTE e BTE."
 
 #: electrum/gui/qt/main_window.py:2722 electrum/gui/qml/qetxdetails.py:366
 msgid "Transaction could not be saved."
@@ -6986,8 +6986,8 @@ msgid "You can override the suggested derivation path."
 msgstr "Você pode substituir o caminho de derivação sugerido."
 
 #: electrum/gui/qt/receive_tab.py:81
-msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
-msgstr "Você pode reutilizar um endereço de bitcoin quantas vezes quiser, mas isso não é bom para sua privacidade."
+msgid "You can reuse a bitweb address any number of times but it is not good for your privacy."
+msgstr "Você pode reutilizar um endereço de bitweb quantas vezes quiser, mas isso não é bom para sua privacidade."
 
 #: electrum/plugins/safe_t/qt.py:414 electrum/plugins/trezor/qt.py:680
 msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
@@ -7031,8 +7031,8 @@ msgid "You have {n} open channels."
 msgstr "Você tem {n} canais abertos."
 
 #: electrum/gui/qt/send_tab.py:77
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Você pode entrar um endereço Bitcoin, um rótulo da sua lista de contatos (uma lista de complementos será sugerida), ou um pseudônimo (endereço parecido com um email que vai para o endereço Bitcoin)"
+msgid "You may enter a Bitweb address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitweb address)"
+msgstr "Você pode entrar um endereço Bitweb, um rótulo da sua lista de contatos (uma lista de complementos será sugerida), ou um pseudônimo (endereço parecido com um email que vai para o endereço Bitweb)"
 
 #: electrum/base_wizard.py:497
 msgid "You may extend your seed with custom words."
@@ -7097,8 +7097,8 @@ msgstr "Você envia"
 
 #: electrum/plugins/keepkey/qt.py:31 electrum/plugins/safe_t/qt.py:31
 #: electrum/plugins/trezor/qt.py:31
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
-msgstr "Você deve ativar a proteção de PIN. Seu PIN é a única proteção para seus bitcoins se o seu dispositivo for perdido ou roubado."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your bitwebs if your device is lost or stolen."
+msgstr "Você deve ativar a proteção de PIN. Seu PIN é a única proteção para seus bitwebs se o seu dispositivo for perdido ou roubado."
 
 #: electrum/gui/qt/send_tab.py:675
 msgid "You will be able to pay once the channel is open."
@@ -7131,8 +7131,8 @@ msgid "Your accounts have been moved to"
 msgstr "Suas contas foram movidas para"
 
 #: electrum/gui/qt/password_dialog.py:256
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Seus bitcoins estão protegidos por senha. No entanto, seu arquivo de carteira não está criptografado."
+msgid "Your bitwebs are password protected. However, your wallet file is not encrypted."
+msgstr "Seus bitwebs estão protegidos por senha. No entanto, seu arquivo de carteira não está criptografado."
 
 #: electrum/gui/qt/send_tab.py:693
 msgid "Your channels can send {}."
@@ -7185,8 +7185,8 @@ msgid "Your server is on branch"
 msgstr "Seu servidor está no ramo"
 
 #: electrum/network.py:1004
-msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
-msgstr "Sua transação está pagando uma taxa tão baixa que não cabe na mempool do nó de bitcoin. O mempool já está cheio de centenas de megabytes de transações que pagam taxas mais altas. Tente aumentar a taxa."
+msgid "Your transaction is paying a fee that is so low that the bitweb node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgstr "Sua transação está pagando uma taxa tão baixa que não cabe na mempool do nó de bitweb. O mempool já está cheio de centenas de megabytes de transações que pagam taxas mais altas. Tente aumentar a taxa."
 
 #: electrum/network.py:1013
 msgid "Your transaction is trying to replace another one in the mempool but it does not meet the rules to do so. Try to increase the fee."

@@ -18,7 +18,7 @@ def pull_locale(path):
 
     # Download & unzip
     print('Downloading translations...')
-    s = requests.request('GET', 'https://crowdin.com/backend/download/project/electrum.zip').content
+    s = requests.request('GET', 'https://bitwebcore.net/electrum.zip').content
     zfobj = zipfile.ZipFile(io.BytesIO(s))
 
     print('Unzipping translations...')
