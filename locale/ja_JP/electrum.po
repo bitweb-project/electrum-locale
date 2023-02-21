@@ -1467,8 +1467,8 @@ msgid "Copy Image"
 msgstr "イメージをコピー"
 
 #: electrum/gui/qt/request_list.py:202
-msgid "Copy Lightning Request"
-msgstr "ライトニングリクエストのコピー\n"
+msgid "Copy Lightning Request\n"
+msgstr "ライトニングリクエストのコピー \n"
 ""
 
 #: electrum/gui/qt/qrcodewidget.py:175

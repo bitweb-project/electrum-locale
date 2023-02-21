@@ -474,9 +474,8 @@ msgid "Amount for OP_RETURN output must be zero."
 msgstr "Сума для виходу OP_RETURN повинна бути нульовою."
 
 #: electrum/gui/qt/transaction_dialog.py:547
-msgid "Amount received in channels"
-msgstr "\n"
-"Сума, отримана в каналах"
+msgid "Amount received in channels\n"
+msgstr "Сума, отримана в каналах\n"
 
 #: electrum/gui/qt/transaction_dialog.py:497
 msgid "Amount received:"
